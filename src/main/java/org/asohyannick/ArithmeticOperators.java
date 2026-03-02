@@ -118,5 +118,7 @@ public class ArithmeticOperators {
             var serverIndex = requestId % numberOfServers;
             System.out.println("Request " + requestId + " → Server " + serverIndex);
         }
+
+
     }
 }
