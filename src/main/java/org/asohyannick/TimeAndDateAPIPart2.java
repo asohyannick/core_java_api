@@ -2,6 +2,11 @@ package org.asohyannick;
 
 import java.time.LocalTime;
 
+/**
+ * LocalTime represents time only — hours, minutes, seconds, nanoseconds.
+ * No date, no timezone. Perfect for business hours, schedules, and recurring time events.
+ */
+
 public class TimeAndDateAPIPart2 {
 public static void main ( String[] args ) {
 	LocalTime now = LocalTime.now ( );

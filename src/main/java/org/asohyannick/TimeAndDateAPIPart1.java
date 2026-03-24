@@ -4,6 +4,11 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.Period;
 
+/**
+ * LocalDate — Date Without Time or Timezone
+ * LocalDate represents a date only — year, month, and day. No time, no timezone.
+ * Perfect for birthdays, holidays, deadlines, and any date where time of day is irrelevant.
+ */
 public class TimeAndDateAPIPart1 {
 public static void main ( String[] args ) {
 	// Current date from system clock
